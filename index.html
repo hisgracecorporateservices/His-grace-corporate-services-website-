@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIS GRACE CORPORATE SERVICES</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #263445;
+    line-height: 1.6;
+}
+
+header {
+    background: #082b50;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    color: #e9b949;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e9b949;
+}
+
+.hero {
+    background: linear-gradient(120deg, #082b50, #125b82);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e9b949;
+    color: #082b50;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #082b50;
+    margin-bottom: 18px;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.services {
+    background: white;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.service-card {
+    background: #f5f7fa;
+    padding: 30px 20px;
+    border-radius: 8px;
+    border-bottom: 4px solid #e9b949;
+}
+
+.service-card h3 {
+    color: #082b50;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 14px;
+}
+
+.contact {
+    background: #eaf0f6;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #125b82;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 30px auto 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccd5df;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    background: #082b50;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #125b82;
+}
+
+footer {
+    background: #082b50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+@media(max-width: 650px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">HIS GRACE CORPORATE SERVICES</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>HIS GRACE CORPORATE SERVICES</h1>
+    <p>Professional Solutions. Excellence. Integrity. Trust.</p>
+    <a href="#contact" class="btn">Contact Us Today</a>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">About Our Company</h2>
+
+    <p>
+        Welcome to HIS GRACE CORPORATE SERVICES.
+        We are committed to providing professional,
+        reliable and efficient corporate services.
+        Our goal is to deliver quality solutions,
+        build lasting relationships and help our
+        clients achieve their business objectives.
+    </p>
+</section>
+
+<section class="services" id="services">
+    <h2 class="section-title">Our Services</h2>
+    <p>We are committed to delivering quality and professional services.</p>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <h3>Business Consultancy</h3>
+            <p>Professional guidance and support for business development and growth.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Corporate Services</h3>
+            <p>Business support solutions designed to meet corporate needs.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Documentation</h3>
+            <p>Assistance with business documentation and administrative processes.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Business Support</h3>
+            <p>Reliable support to help individuals and businesses operate effectively.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>We would love to hear from you.</p>
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:hisgracecorporateservices64@gmail.com">
+        hisgracecorporateservices64@gmail.com</a>
+    </p>
+
+    <div class="contact-form">
+
+        <form action="https://formsubmit.co/hisgracecorporateservices64@gmail.com" method="POST">
+
+            <input type="text" name="name"
+            placeholder="Your Full Name" required>
+
+            <input type="email" name="email"
+            placeholder="Your Email Address" required>
+
+            <input type="text" name="subject"
+            placeholder="Subject">
+
+            <textarea name="message"
+            placeholder="Write your message here..."
+            required></textarea>
+
+            <input type="hidden" name="_subject"
+            value="New Customer Enquiry - HIS GRACE CORPORATE SERVICES">
+
+            <input type="hidden" name="_captcha" value="true">
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; <span id="year"></span> HIS GRACE CORPORATE SERVICES.</p>
+    <p>All Rights Reserved.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
